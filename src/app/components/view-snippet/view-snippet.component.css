@@ -1,0 +1,76 @@
+/* Style the `<h2>` element */
+h2 {
+    font-size: 1.3rem;  /* Adjust font size as needed */
+    margin: 1rem 0;  /* Add some margin for spacing */
+    font-weight: bold;  /* Make title bold for emphasis */
+  }
+  
+  /* Style the horizontal rule */
+  hr {
+    border: 1px solid #ddd;  /* Use a light gray border */
+    margin: 1rem 0;  /* Add some margin for spacing */
+  }
+  
+  /* Style the snippet container */
+  .snippet-container {
+    display: flex;
+    justify-content: center;  /* Center the snippet horizontally */
+  }
+  
+  /* Style the snippet element */
+  .snippet {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    max-width: 800px;  /* Set a maximum width for responsiveness */
+  }
+  
+  /* Style the code pre element */
+  .snippet pre {
+    background-color: #eee;
+    padding: 1rem;
+    overflow: auto;
+    font-family: monospace;  /* Use a monospaced font for code */
+  }
+  
+  /* Style the snippet actions */
+  .snippet-actions {
+    display: flex;
+    justify-content: flex-end;  /* Align buttons to the right */
+    margin-top: 0.5rem;
+  }
+  
+  /* Style the snippet actions buttons */
+  .snippet-actions button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Style the snippet actions button on hover */
+  .snippet-actions button:hover {
+    background-color: #eee;
+  }
+  
+
+
+ 
+div{
+margin: 10px 20px;
+padding: 10px;
+}
+h3 {color:#333; margin-bottom:10px;}
+
+pre {
+white-space:pre-wrap;
+background-color:#f8f8f8;
+padding:10px;
+border:1px solid #ddd;
+border-radius:3px;
+font-family:'Courier New', monospace;
+}

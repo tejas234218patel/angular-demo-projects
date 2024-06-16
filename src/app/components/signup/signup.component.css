@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .container h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .container input:focus {
+    outline: none;
+    border: 1px solid #999;
+  }
+  
+  .red-text {
+    color: red;
+    font-size: smaller;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .container input.invalid {
+    border: 1px solid red;
+  }
+  
+  .btn-green,
+  .btn-red {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-green {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .btn-red {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .btn-green[disabled],
+  .btn-red[disabled] {
+    opacity: 0.5;
+    cursor: default;
+  }
+  

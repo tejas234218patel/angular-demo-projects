@@ -1,0 +1,70 @@
+/* Style the container div */
+.container {
+    width: 100%;  /* Make it full width */
+    margin: 0 auto;  /* Center the container horizontally */
+  }
+
+  
+  /* Target the navigation element */
+  .nav {
+    /* Add your desired styles here */
+    background-color: #0eb78d;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation links */
+  .nav li {
+    /* Add your desired styles here */
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  /* Style the anchor tags within the navigation links */
+  .nav li a {
+    /* Add your desired styles here */
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Style the links on hover (optional) */
+  .nav li a:hover {
+    color: white;
+  }
+  .nav li a.active {
+    /* Styles for the active link */
+    color: #fff;  /* Change text color */
+    font-size: larger;
+  }
+   /* Nav bar css end */
+
+   /* Target the container div */
+.logo-container {
+  /* Styles for the container div (optional) */
+  /* Example: */
+  display: flex;  /* Center the logo horizontally */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Target the logo anchor tag */
+.logo a {
+  text-decoration: none;  /* Remove underline */
+  color: inherit;  /* Inherit color from parent */
+  /* Optional: Set a custom color here */
+  font-size: 2em;  /* Increase font size for logo */
+  font-weight: bold;  /* Make the text bold */
+}
+
+/* Target the logo text (optional) */
+.logo a span {  /* Assuming the logo text is wrapped in a span */
+  /* Additional styles for the logo text itself */
+  /* Example: */
+  font-family: cursive;  /* Use a decorative font */
+}
+ /* main menu logo css end */
+
+.handSign{
+  cursor: pointer;
+}

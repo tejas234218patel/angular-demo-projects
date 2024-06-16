@@ -1,0 +1,41 @@
+angular.dev/guide/routing/common-router-tasks
+
+angular.dev/guide/defer
+
+deploy on firebase:
+
+npm run build ( it will generate dist folder.)
+
+Following is link for firebase:
+https://console.firebase.google.com/u/0/project/codebin-ng-1a1d0/hosting/sites/codebin-ng-1a1d0
+=> just go to the project console -> Build -> Hosting.
+
+Run FOllowing commands in vscode terminal:
+
+run following command to install firebase tools:
+npm install -g firebase-tools
+
+run below command to login into firebase:
+firebase login
+
+Once you login with firebase, run following command:
+firebase init
+-> Above command will create json file: firebase.json
+
+run following command to deploy app:
+firebase deploy
+
+Deployed application:
+https://codebin-ng-1a1d0.web.app/
+
+https://github.com/tejas234218patel/angular-demo-projects
+
+Git creds:
+tejas16mcl06@gmail.com
+Tejas@201019
+
+Firebase Creds:
+tejas16mcl06@gmail.com
+Tejas@000
+
+angular-demo-projects

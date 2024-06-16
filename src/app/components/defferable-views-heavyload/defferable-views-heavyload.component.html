@@ -1,0 +1,26 @@
+<p>Loreum gfdgfg gdfgdf jash asfau u hiuhdsfg asf oahoi fog aos dgajfaklsf jkadjlkacskfjaoij jfoiajioo afoj.</p>
+<button type="button" #greeting>deffer with hover parameter</button>
+<!-- @defer(on viewport) { -->
+@defer(on hover(greeting)) {
+    <!-- here with hover property, when you hover on button, only then app-heavyload component will load, till the time,
+     it will display placeholder text. -->
+<app-heavyload></app-heavyload>
+}@placeholder {
+    <!-- so here the app-heavyload component will only be seen in elements when it will come into viewport,
+     till the time it will just show placeholder text in elements and not show app-heavyload component and not
+     even fetch the bundle from network request.
+     check following angular guide for more details. 
+        angular.dev/guide/routing/common-router-tasks
+        angular.dev/guide/defer
+        and following youtube video with timeframe: 5:00:00
+        https://www.youtube.com/watch?v=2Yq3za3qIp0&t=8468s
+        -->
+<div>Placeholder</div>
+}
+@loading(after 1000ms; minimum 1s) {
+<!-- here parameters are optional. and above parameters means, if the network request
+ is not fetched within 1000ms then this loading content will be displayed for minimum 1 second. -->
+<h3>Content is loading.</h3>
+}@error {
+<h3>Error while loading heavy component.</h3>
+}

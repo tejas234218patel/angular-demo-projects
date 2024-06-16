@@ -1,0 +1,12 @@
+<h2>Program Snippets</h2>
+<hr />
+<div>
+    <ul>
+        @if(items.length == 0){
+        <li>No data found.</li>
+        }
+        @for (item of items; track item.id) {
+        <li><a [routerLink]="['/snippet',item.id]" routerLinkActive="router-link-active">{{item.title}}</a></li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+    <nav class="nav">
+        <div class="logo-container">
+            <h2 class="logo"><a routerLink="/">Code <span>Bin</span></a></h2>
+        </div>
+        <ul>
+            <li><a routerLink="/about" routerLinkActive="active">{{resources.about}}</a></li>
+            <li><a routerLink="/defferable-view-demo" routerLinkActive="active">Deffereable View</a></li>
+            @if (isUserAuthenticated()) {
+                <li><a routerLink="/create" routerLinkActive="active">{{resources.create}}</a></li>
+                <li class="handSign" routerLinkActive="active" (click)="logoutUser()">{{resources.logout}}</li>            
+            }@else{
+                <li><a routerLink="/login" routerLinkActive="active">{{resources.login}}</a></li>
+                <li><a routerLink="/sign-up" routerLinkActive="active">{{resources.signup}}</a></li>
+            }
+        </ul>
+    </nav>
+    <hr />
+</div>
