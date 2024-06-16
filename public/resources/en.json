@@ -3,5 +3,7 @@
     "signup":"SignUp",
     "about":"About",
     "create":"Create",
-    "logout":"Sign Out"
+    "logout":"Sign Out",
+    "home":"home"
+
 }
